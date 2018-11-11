@@ -3,7 +3,7 @@
   .container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 2px;
+    padding: 0 0px;
   }
 
   .menu-principal ul {
@@ -57,14 +57,19 @@
   }
 
   .elements {
-    width: 48%;
+    width: 100%;
     margin: 5px;
-    justify-content: flex-start;
+
   }
 
   .desc-centre h2 {
     font-size: 8px;
   }
+
+.produits1{
+  display: flex;
+  flex-direction: column;
+}
 
   .produits .elements h2 {
     font-size: 12px;
@@ -75,13 +80,10 @@
   }
 
   .img {
-    width: 150px;
+    width: 90%;
   }
 
-  .btn-add {
-    width: 80px;
-    font-size: 8px;
-  }
+
 
   .bas-element {
     display: flex;
